@@ -6,7 +6,7 @@
 # Go tests use this curl binary for integration tests.
 #
 
-FROM ubuntu:lunar-20231004
+FROM ubuntu:mantic-20231011
 
 RUN apt-get update && \
     apt-get upgrade -y && \
